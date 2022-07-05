@@ -25,11 +25,11 @@ The district's *overall passing percentage* went down by 0.3%, with the *percent
 <!-- avg math and all % passing down, avg reading up, surprisingly -->
 We then broke the results down by school, though for this report we are focusing primarily on Thomas High School.  Our initial results are shown below:
 
-![A table showing Thomas High School's original results](Resources/Original_THS_Summary)
+![A table showing Thomas High School's original results](Resources/Original_THS_Summary.PNG)
 
 The modified results are here:
 
-![A table showing Thomas High School's modified results](Resources/Modified_THS_Summary)
+![A table showing Thomas High School's modified results](Resources/Modified_THS_Summary.PNG)
 
 Every category except for Average Reading Score decreased with the removal of dishonest scores, but the Average Reading Score increased.  This likely tells us that some of the 9th-graders had low reading scores that had a greater effect on the Average reading score than on the percent of students passing reading.  
 
@@ -53,23 +53,23 @@ The full statistics for each school, ordered by overall passing percentages, can
 As only the 9th-grade scores were affected by our changes, we'll focus on those results. If you are interested, however, the full results can be found with the following links: 
 - [original math results](Resources/Original_Math_by_Grade.PNG)
 - [original reading results](Resources/Original_Reading_by_Grade.PNG)
-- [modified math results](Resources/Modified_Math_per_Grade.PNG)
-- [modified reading results](Resources/Modified_Reading_per_Grade.PNG)
+- [modified math results](Resources/Modified_Math_by_Grade.PNG)
+- [modified reading results](Resources/Modified_Reading_by_Grade.PNG)
 
 For Thomas High School specifically, the 9th grade results for both math and reading were functionally erased, replaced with `nan`. For all 9th-graders in the district, the original average math score was 80.4, falling to 80.1 with the removal of THS.  The original average reading score was 82.5, dropping to 82.4 with the modification.  
 
 #### Scores by School Budget, School Size, and School Type
 The results for scores based on school budget, size, and type were unaffected by the removal of THS 9th-graders.  
 
-![A table showing scores based on school budget](Resources/Modified_Score_by_Budget.PNG)
+![A table showing scores based on school budget](Resources/Modified_Score_By_Budget.PNG)
 
 We divided budget into four buckets, with the schools divided as equally as possible.  THS fell into the third bucket, with a per-student budget of $631-$645.  To my surprise, schools with lower per-student spending did better in every category, with our highest budget bucket having the worst scores.
 
-![A table showing scores based on school size](Resources/Modified_Score_by_Size.PNG)
+![A table showing scores based on school size](Resources/Modified_Score_By_Size.PNG)
 
 Less surprisingly, large schools with 2000+ students had worse results than small or medium schools, which were very competitive with each other.  
 
-![A table showing scores based on school type](Resources/Modified_Score_by_Type.PNG)
+![A table showing scores based on school type](Resources/Modified_Score_By_Type.PNG)
 
 Charter schools fared better than district schools in every category.  While THS was a charter school, removing their 9th-graders had no effect on performance at this scale.
 
